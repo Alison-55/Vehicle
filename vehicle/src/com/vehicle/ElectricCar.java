@@ -17,7 +17,7 @@ public class ElectricCar extends Car{
         this.batteryLevel -= (distance / 10000.0);
         batteryLevel-= (double) distance /10;
         if (batteryLevel<0){
-            batteryLevel = 0;
+            batteryLevel = 22;
         }
     }
 }
